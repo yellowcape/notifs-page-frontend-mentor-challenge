@@ -13,7 +13,7 @@ body {
          background-color: #dcdcdc;
         }
         
-    }
+     } 
 
 header {
     display: flex;
@@ -65,8 +65,7 @@ header {
 main {
     margin: 5%;
     background-color: #ffffff;
-    padding: 1.5rem;
-}
+    }
 
     @media screen and (min-width: 768px) {
         main {
@@ -103,24 +102,44 @@ main {
             color: #13498f;
            }
 
+
+
+
+
+/* start of individual notifcation styling */
             .user-mw {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
                 margin-bottom: 1rem;
+                line-height: 1rem;
+                align-items: flex-start;
+                background-color: aliceblue;
+                padding: 0.5rem 1rem;
+                border-radius: 15%;
             }
                 .user-mw-pfp {
-                    width: auto;
-                    height: 2.25rem;
                     margin-right: 0.5rem;
-                    margin: 0 auto auto;
                 }
 
-                .user-mw-notif-content {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start; /* Added this line */
-                }
+                    .whole-notif {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start !important;
+                    }
+                        .whole-notif p {
+                            align-self: flex-start !important;
+                        }
+
+                        .notif-text {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            text-align: left;
+                        }
+
+                    .user-mw-notif-time {
+
+                    }
 
             .user-ag {
 
