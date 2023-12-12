@@ -103,8 +103,43 @@ main {
            }
 
 
+/* User bubble styles */ 
+.user-bubble {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+} 
 
+.active-background {
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
 
+.user-bubble-image {
+    margin-left: 0.5rem;
+    margin-top: 1rem; 
+}
+
+.user-bubble-content{
+    flex-grow: 1;
+}
+
+.user-bubble-content-time {
+    color: #8d8d8d;
+}
+
+.user-bubble-content-message{
+    border: 1px solid #b8b8b8 ;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.user-bubble-image-end {
+    
+}
 
 /* start of individual notifcation styling */
             .user-mw {
@@ -178,4 +213,17 @@ a {
 
 a:hover {
     color: red;
+}
+
+/* SR-ONLY */ 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
