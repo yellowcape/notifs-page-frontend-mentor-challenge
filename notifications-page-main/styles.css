@@ -15,7 +15,7 @@ body {
         
      } 
 
-header {
+/* header { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,7 +59,7 @@ header {
             font-size: 1rem;
             font-weight: lighter;
             color: #333333;
-        }
+        } */
 
 
 main {
